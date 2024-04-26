@@ -1,0 +1,32 @@
+<script>
+    const segunda = 2
+    const terca = 3
+    const quarta = 4
+    const quinta = 5
+    const sexta = 6
+    const sabado = 7
+    const domingo = 1
+
+    let atividade = prompt("atividade semanal");
+
+    if (atividade == 1) {
+        alert("voce vai jogar uma pelota")
+    }
+    else if (atividade == 2) {
+        alert("vai trabalhar")
+    }
+    else if (atividade == 3) {
+        alert("jogar volei")
+    }
+    else if (atividade == 4) {
+        alert("treinar boxe")
+    }
+    else if (atividade == 5) {
+        alert("ir em um restaurante")
+    }
+    else if (atividade == 6) {
+        alert("dia do pagode")
+    }
+    if (atividade == 7) {
+        alert("jogos da libertadores")
+    }
